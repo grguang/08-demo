@@ -1,0 +1,54 @@
+.my-wrap{
+  display: flex;
+  flex-direction: column; /*wrap 竖直排列（三个）*/
+  height: 100vh;
+}
+.my-main{
+  flex-grow: 1;
+  overflow-y:scroll;/*固定main的大小，y轴显示出滚动条*/
+
+}
+.nav-footer{
+  height: 80px;
+  background-color: #00bcd4;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;/*水平排列*/
+  align-items: center;
+}
+.nav-footer a{
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  border-right: 1px solid #000;
+  flex-grow: 1;
+}
+.nav-footer a:last-child{
+  border: none
+}
+.btn:active:focus, .btn:focus{
+  outline: none
+}
+.nav-header{
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #00bcd4;
+  padding: 0 5px
+}
+.nav-header h3{
+  margin: 0;
+  color: #fff;
+  font-weight: bold;
+}
+.nav-header button{
+  height: 40px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 16px;
+  padding: 5px 10px;
+}
