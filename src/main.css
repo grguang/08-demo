@@ -1,3 +1,4 @@
+/*App*/
 .my-wrap{
   display: flex;
   flex-direction: column; /*wrap 竖直排列（三个）*/
@@ -6,7 +7,7 @@
 .my-main{
   flex-grow: 1;
   overflow-y:scroll;/*固定main的大小，y轴显示出滚动条*/
-
+  display: flex;
 }
 .nav-footer{
   height: 80px;
@@ -51,4 +52,42 @@
   border: none;
   border-radius: 16px;
   padding: 5px 10px;
+}
+.home-wrap{
+  background-image: url('./img/true.jpg');
+  flex-grow: 1;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+}
+.home-cover{
+  background-color: rgba(0, 0, 0, 0.4);
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+.home-item{
+  margin: 0 auto;
+  text-align: center;
+}
+.home-cover h3{
+  color:white
+}
+.home-cover h3 span{
+  color: #00bcd4
+}
+.about-wrap{
+  flex-grow: 1;
+  padding: 20px;
+}
+.git-card{
+  width: 100%;
+  border: 1px solid #000;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 10px, rgba(0, 0, 0, 0.117647) 0px 1px 10px;
+  text-align: center;
+}
+.about-form{
+  display: inline;
+  width: 50%;
+  max-width: 560px
 }
