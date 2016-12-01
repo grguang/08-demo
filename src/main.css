@@ -91,3 +91,11 @@
   width: 50%;
   max-width: 560px
 }
+.show-git{
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 10px, rgba(0, 0, 0, 0.117647) 0px 1px 10px;
+  justify-content: space-around;
+  color: deeppink;
+  font-size: 16px;
+  padding: 10px 0
+}
