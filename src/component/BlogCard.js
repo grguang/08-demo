@@ -1,5 +1,7 @@
 import React, { PropTypes } from 'react'
 
+import {Link} from 'react-router'
+
 import RaisedButton from 'material-ui/RaisedButton';
 
 class BlogCard extends React.Component {
@@ -12,7 +14,7 @@ class BlogCard extends React.Component {
         <div className='blog-content clearfix'>
           <h3>{this.props.title}</h3>
           <p>{this.props.desc}</p>
-          <RaisedButton label="阅读更多" primary={true} />
+          <RaisedButton label="阅读更多" primary={true} href={`#/item/${this.props.index}`} />
         </div>
       </div>
     )
