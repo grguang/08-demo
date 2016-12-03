@@ -73,6 +73,10 @@
 .home-cover h3{
   color:white
 }
+.home-item p{
+  color: #fff;
+  font-size: 16px;
+}
 .home-cover h3 span{
   color: #00bcd4
 }
@@ -98,4 +102,40 @@
   color: deeppink;
   font-size: 16px;
   padding: 10px 0
+}
+.blog-wrap{
+  flex-grow: 1;
+}
+.blog-index{
+  background-color: teal;
+  font-size: 28px;
+  text-align: center;
+  color: #fff;
+  height: 60px;
+  padding-top: 12px;
+}
+.blog-index span{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  line-height: 36px;
+}
+.blog-card{
+  padding: 0 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.blog-content{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 10px, rgba(0, 0, 0, 0.12) 0px 1px 10px;
+  padding: 10px;
+  color: #666;
+}
+.blog-content h3{
+  margin: 10px 0;
+}
+.blog-content button{
+
 }
