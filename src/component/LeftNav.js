@@ -6,10 +6,10 @@ class LeftNav extends React.Component {
     return(
       <div className="leftnav-wrap">
         <h3>Grguang@{this.props.title}</h3>
-        <Link to='/' activeStyle={{backgroundColor:'rgba(0,0,0,0.5)'}} onlyActiveOnIndex={true}><span className="glyphicon glyphicon-home" aria-hidden="true"></span><br />Home</Link>
-        <Link to='blog' activeStyle={{backgroundColor:'rgba(0,0,0,0.5)'}}>Blog</Link>
-        <Link to='work' activeStyle={{backgroundColor:'rgba(0,0,0,0.5)'}}>Work</Link>
-        <Link to='about' activeStyle={{backgroundColor:'rgba(0,0,0,0.5)'}}>About</Link>
+        <Link to='/' activeStyle={{backgroundColor:'rgba(0,0,0,0.5)'}} onlyActiveOnIndex={true}><span className="glyphicon glyphicon-home" aria-hidden="true"></span>Home</Link>
+        <div><Link to='blog' activeStyle={{backgroundColor:'rgba(0,0,0,0.5)'}}><span className="glyphicon glyphicon-th-large" aria-hidden="true"></span>Blog</Link></div>
+        <div><Link to='work' activeStyle={{backgroundColor:'rgba(0,0,0,0.5)'}}><span className="glyphicon glyphicon-book" aria-hidden="true"></span>Work</Link></div>
+        <div><Link to='about' activeStyle={{backgroundColor:'rgba(0,0,0,0.5)'}}><span className="glyphicon glyphicon-user" aria-hidden="true"></span>About</Link></div>
       </div>
     )
   }

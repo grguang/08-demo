@@ -13,9 +13,9 @@
   width: 260px;
   background-color: #00bcd4;
   color:#fff;
+  text-align: center;
 }
 .leftnav-wrap h3{
-  text-align: center;
   margin: 0;
   padding:20px;
   border-bottom: 2px solid #bada55;
