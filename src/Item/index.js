@@ -23,7 +23,7 @@ class Item extends React.Component {
   render () {
     marked.setOptions({
       highlight: function (code) {
-        return hljs('highlight.js').highlightAuto(code).value;
+        return hljs.highlightAuto(code).value;
       }
     });
     return(

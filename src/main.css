@@ -4,6 +4,29 @@
   flex-direction: column; /*wrap 竖直排列（三个）*/
   height: 100vh;
 }
+@media (min-width:760px) {
+  .my-wrap{
+    flex-direction: row;
+  }
+}
+.leftnav-wrap{
+  width: 260px;
+  background-color: #00bcd4;
+  color:#fff;
+}
+.leftnav-wrap h3{
+  text-align: center;
+  margin: 0;
+  padding:20px;
+  border-bottom: 2px solid #bada55;
+}
+.leftnav-wrap a{
+  display: block;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
 .my-main{
   flex-grow: 1;
   overflow-y:scroll;/*固定main的大小，y轴显示出滚动条*/
